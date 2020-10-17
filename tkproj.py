@@ -2,7 +2,12 @@ from tkinter import *
 
 window = Tk()
 
-but1 = Button(window, text="Execute")
+
+def km_to_miles():
+    print('success ')
+
+
+but1 = Button(window, text="Execute", command=km_to_miles)
 but1.grid(row=0, column=0)
 
 entry1 = Entry(window)
